@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+footer {
+  background-color: #1a1a1a;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  font-size: 30px;
+  color: #ae934b;
+  align-items: center;
+  justify-content: center;
+  /* position: relative;
+  bottom: 0; */
+  /* position: absolute; */
+  margin-top: auto;
+}
+header {
+  background-color: #1a1a1a;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  font-size: 30px;
+  color: #ae934b;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-right: 20px;
+}
+.title {
+  /* display: flex; */
+}
+.logo {
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
+body {
+  /* position: relative; */
+  background-color: #ae934b;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.imgclass {
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+}
+
+@media (max-width: 650px) {
+  .SelectAndLimitation {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+  }
+  header {
+    background-color: #1a1a1a;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    color: #ae934b;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 18px;
+  }
+  .logo {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+  }
+  .CardContaier {
+    /* width: 100%; */
+    /* font-size: 12px; */
+    margin: 5px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #ae934b;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding-bottom: 10px;
+  }
+
+  .card {
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 20px;
+    background-color: #2e2e2e;
+    border: 2px solid #5d473a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: #f0ead6;
+    transition: transform 0.3s ease;
+  }
+}
+
+.card {
+  border: 1px solid black;
+  width: 300px;
+  border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+  background-color: #2e2e2e;
+  border: 2px solid #5d473a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #f0ead6;
+  transition: transform 0.3s ease;
+}
+.CardContaier {
+  padding: 10px -10px 10px 10px;
+  /* margin: 0px 0px 0px 0px; */
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+  justify-content: center;
+  background-color: #ae934b;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* min-height: 100vh; */
+  /* background-image: url("../images/pic2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+.imgcard {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+.cardContant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@font-face {
+  font-family: "HarryP";
+  src: url("../assest/harry_p/HARRYP__.TTF") format("truetype");
+}
+.cardContant,
+header,
+footer {
+  font-family: "HarryP";
+}
+.cardContant {
+  font-size: 33px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+/* html,
+body {
+  height: 100%;
+  margin: 0;
+} */
+.SelectAndLimitation {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+#determinNumDiv {
+  width: 100;
+}
+#determinNum {
+  width: 100px;
+}
+#determinNum::placeholder {
+  color: #1a1a1a;
+}
+
+#selectHouse,
+#determinNum {
+  /* padding-right: 20px; */
+  color: #1a1a1a;
+  margin-right: 20px;
+  /* padding: -10px; */
+  background-color: #ae934b;
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.Input,
+#categorySelector {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* width: 40%; */
+}
+#addButton:hover,
+#ViewButton:hover {
+  background: #ae934b;
+}
+#addButton,
+#ViewButton {
+  background: #0073e6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 20px;
+}
