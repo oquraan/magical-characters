@@ -206,7 +206,9 @@ function add() {
   InputBirthDate = document.getElementsByClassName("InputName")[0];
   addButton = document.getElementById("addButton");
   addButton.addEventListener("click", () => {
-    console.log(InputBirthDate.value+"  "+ InputHouse.value+"  "+InputName.value);
+    console.log(
+      InputBirthDate.value + "  " + InputHouse.value + "  " + InputName.value
+    );
     obj.push({
       name: InputName.value,
       house: InputHouse.value,
@@ -222,15 +224,3 @@ function add() {
 // });
 
 fetchData();
-// const addButton = document.getElementById("addButton");
-
-// addButton.addEventListener("click", () => {
-//   const InputName = document.getElementsByClassName("InputName")[0];
-//   const InputHouse = document.getElementsByClassName("InputHouse")[0];
-//   const InputBirthDate = document.getElementsByClassName("InputName")[0];
-//   obj.push({
-//     name: InputName.value,
-//     house: InputHouse.value,
-//     dateOfBirth: InputBirthDate.value,
-//   });
-// });
