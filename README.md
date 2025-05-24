@@ -15,4 +15,4 @@ APl, dynamically rendering content, and styling your website using CSS..
 
 
 ## Web Pages  : 
- Deploy the project to GitHub Pages [magical-characters](https://oquraan.github.io/My-Tasks/ "").
+ Deploy the project to GitHub Pages [magical-characters](https://oquraan.github.io/magical-characters/ "").
